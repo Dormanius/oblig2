@@ -1,0 +1,78 @@
+body{
+    background-color: #13CE66;
+    display: grid;
+    grid-template-rows: 10% 5% 75% 10%
+}
+
+header{
+    background-color: #13CE66;
+    text-align: center;
+    max-width: 95%;
+    margin: 0 auto;
+    background-image: url('treeline.jpg')
+}
+
+nav{
+    background-color: #0F4426;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+aside{
+    background-color: #33FF8D;
+    position: right;
+    max-width: 80%;
+    display: grid;
+    grid-template-rows: 30% 45% 5%;
+}
+aside nav{
+    background-color: #33FF8D;
+    color:black;
+    font-size: 15px;
+}
+
+main{
+    background-color: #056D33;
+    max-width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+article{
+    background-color: #13CE66;
+    width: 100%;
+}
+
+footer{
+    background-color: #0F4426;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+footer > p{
+    margin: 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+.innhold{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.topnav{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.topnav > a{
+    text-align: center;
+    margin: 0 50px 0 0;
+}
