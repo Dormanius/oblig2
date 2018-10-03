@@ -1,0 +1,27 @@
+@media print{
+footer{
+    display: none;
+}
+header{
+    display: none;
+}
+nav{
+    display: none;
+}
+aside{
+    display: none;
+}
+img{
+    float: none;
+}
+@page{
+    margin: 0.5cm;
+}
+body{
+    font: 13pt Georgia,"comic sans", Times, serif;
+    line-height: 1.5;
+}
+h2{
+    font-size: 18;
+}
+}
