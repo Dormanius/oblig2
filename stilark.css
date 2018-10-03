@@ -10,7 +10,7 @@ header{
     text-align: center;
     max-width: 95%;
     margin: 0 auto;
-    background-image: url('treeline.jpg');
+    background-image: url('bilder/treeline.jpg');
     
 }
 
@@ -52,6 +52,7 @@ aside nav{
 main{
     background-color: #056D33;
     max-width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     grid-column: 1/2;
@@ -104,6 +105,12 @@ ul{
     margin: 0 50px 0 0;
 }
 
-img{
+#git_bilde{
     float: right;
+}
+
+img{
+    max-width: 400px;
+    height: auto;
+    border: solid 5px;
 }
