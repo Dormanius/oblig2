@@ -20,7 +20,8 @@ img{
 }
 .innhold{
     text-align: left;
-    flex: none;
+    display: flex;
+    flex: wrap;
 }
 @page{
     margin: 0.5cm;
